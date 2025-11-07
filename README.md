@@ -29,3 +29,67 @@ This project uses multiple datasets to train, evaluate, and analyze the model. B
   - description
 - **Format:** CSV 
 - **Size:** 14 MB
+
+## 💻 Installation and Setup
+
+Follow these steps in your terminal or command prompt:
+
+1.  **Clone the Repository**
+    Get a local copy of the project files using Git. 
+
+    ```bash
+    git clone https://github.com/Sahe00/NLPTM_finalproject.git
+    cd NLPTM_finalproject
+    ```
+
+2.  **Create and Activate a Virtual Environment (Recommended)**
+    Use a virtual environment to manage dependencies and avoid conflicts.
+
+    ```bash
+    python -m venv venv
+    # On Windows (Command Prompt):
+    .\venv\Scripts\activate
+    # On macOS/Linux:
+    source venv/bin/activate
+    ```
+
+3.  **Install Dependencies**
+    Install all required libraries listed in `requirements.txt`:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+
+## 🏃 Running the Project
+
+The core analysis is performed within the primary Jupyter Notebook.
+
+### Option A: Running via Terminal/Browser (Standard)
+
+1.  **Launch Jupyter Lab/Notebook**
+    Start the local server from the project root directory:
+
+    ```bash
+    jupyter lab
+    # OR
+    jupyter notebook
+    ```
+
+2.  **Execute the Code**
+    A web browser will open. Navigate to and click on **`project.ipynb`**. Run the cells sequentially to reproduce the results.
+
+### Option B: Running via Visual Studio Code (IDE)
+
+1.  **Open the Project in VS Code**
+    Open the `NLPTM_finalproject` folder in VS Code.
+
+2.  **Select the Python Kernel**
+    * Open **`project.ipynb`**.
+    * In the top right corner of the notebook interface, select the Python kernel associated with your newly created **`venv`** environment.
+    * *Note: Ensure you have the **Python** and **Jupyter** extensions installed in VS Code.*
+
+3.  **Execute the Code**
+    Run the cells one by one or select "Run All" within the notebook interface to perform the analysis.
+
+---
